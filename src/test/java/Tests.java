@@ -8,7 +8,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class Exmple extends BaseTest {
+public class Tests extends BaseTest {
     @Test(description = "Получение списка")
     public void responseList() {
         Response user = USER_STEPS.getResponseList();
